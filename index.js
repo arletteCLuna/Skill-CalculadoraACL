@@ -76,7 +76,7 @@ const RestaIntentHandler = {
                 .getResponse();
         }
 
-        const resultado = numero1 - numero2;
+        const resultado = numero2 - numero1;
         const speakOutput = `Arlette. El resultado de la resta de ${numero1} menos ${numero2} es igual a ${resultado}.`;
 
         return handlerInput.responseBuilder
@@ -142,7 +142,7 @@ const DivisionIntentHandler = {
                 .getResponse();
         }
 
-        const resultado = numero1 / numero2;
+        const resultado = numero2 / numero1;
         const speakOutput = `Arlette. El resultado de la división de ${numero1} entre ${numero2} es igual a ${resultado}.`;
 
         return handlerInput.responseBuilder
